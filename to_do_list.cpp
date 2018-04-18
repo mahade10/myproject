@@ -72,15 +72,10 @@ void Delete(int x)
 
 int main()
 {
-   int choice = 0;
+   int choice ;
    while (1)
    {
-      cout << "Enter you choice " << endint main()
-    {
-   int choice = 0;
-   while (1)
-   {
-      cout << "Enter you choice " << endl;l;
+      cout << "Enter you choice " << endl;
 
       cout << "1. add information" << endl;
       cout << "2. show information" << endl;
