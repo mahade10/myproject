@@ -16,6 +16,21 @@ struct list data[100];
 
 
 
+bool Add_in_file(string name,string description, string Date)
+{
+
+   if (listSize < 101)
+   {
+      return true;
+   }
+   else
+   {
+      return false;
+   }
+}
+
+
+
 int main()
 {
    int choice = 0;
