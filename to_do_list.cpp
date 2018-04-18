@@ -3,6 +3,18 @@
 #include<fstream>
 using namespace std;
 
+int positionInList = 0;
+int listSize = 0;
+struct list
+{
+	string name;
+   string description;
+   string Date;
+
+};
+struct list data[100];
+
+
 
 int main()
 {
