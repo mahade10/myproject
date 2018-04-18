@@ -30,7 +30,10 @@ bool Add_in_file(string name,string description, string Date)
    {
       return false;
    }
+
 }
+
+
 
 
 
@@ -64,6 +67,9 @@ int main()
          getline(cin, description);
          cout << "Enter date :";
          cin >> Date;
+           Add_in_file(name,description, Date);
+      }
+      else if (choice == 2)  Show_file();
             else if(choice == 3)
       	{
       		cout<<"Enter which list you want Delete : ";
